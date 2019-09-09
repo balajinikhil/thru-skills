@@ -8,28 +8,46 @@
       Name:<input type="text" name="name" value="WTF" />
       <br />
 
-      Password:<input
-        type="password"
-        name="password"
-        placeholder="password"
-        required
-      />
-      <br />
-      Mobile:<input type="number" name="mobile" />
-      <br />
-      Email:<input type="email" name="email" />
-      <br />
-      Date: <input type="date" name="date" />
-      <br />
-      Resume: <input type="file" name="file" />
-      <br />
-      Gender: Male:<input type="radio" name="gender" value="male" />
-      Female:<input type="radio" name="gender" value="female" />
+      Password:
+      <input type="password" name="password" placeholder="password" required />
       <br />
 
+      Mobile:<input type="number" name="mobile" />
+      <br />
+
+      Email:<input type="email" name="email" />
+      <br />
+
+      Date: <input type="date" name="date" />
+      <br />
+
+      Resume: <input type="file" name="file" />
+      <br />
+
+      Gender: Male:<input type="radio" name="gender" value="male" />
+      Female:<input type="radio" name="gender" value="female" />
       <!---name must be same for radio-->
       <br />
-      <button type="submit">Submit</button>
+
+      Hobbies:
+      <input type="checkbox" name="hobby" value="singing" />Singing
+      <input type="checkbox" name="hobby" value="codding" />codding
+      <br />
+
+      State:
+      <select name="state">
+        <option value="KN">Karnataka</option>
+        <option value="MH">Mharastra</option>
+        <option value="TN">Tamil Nadu</option>
+      </select>
+      <br />
+
+      Address:
+      <textarea name="address" cols="20" rows="8"> </textarea>
+      <br />
+      <!-- <button type="submit">Submit</button> -->
+      <input type="submit" value="submit" />
+      <input type="reset" value="reset" />
     </form>
   </body>
 </html>
