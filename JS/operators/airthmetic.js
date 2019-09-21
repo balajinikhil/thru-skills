@@ -39,4 +39,4 @@ console.log(y);
 
 var a = 20;
 console.log(a--); //first it gives value then it's decremented
-console.log(--a); //decrementes first and then givesthe value
+console.log(--a); //decrementes first and then gives the value

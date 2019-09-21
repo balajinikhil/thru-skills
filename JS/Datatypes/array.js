@@ -32,5 +32,4 @@ hobbies.pop(); //removes element from last
 
 console.log(hobbies);
 console.log(typeof hobbies);
-
-//
+console.log(`type of array :` + isarray(hobbies));
