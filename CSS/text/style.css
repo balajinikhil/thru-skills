@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: bold; /*100 - 900, bolder, bold, lighter,l ight*/
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  word-spacing: 2px;
+  letter-spacing: 3px;
+  text-indent: 30px;
+  text-align: justify; /*left right center justify*/
+
+  text-decoration: none; /*underline, line-through*/
+}
