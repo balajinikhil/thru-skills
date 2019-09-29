@@ -40,4 +40,15 @@ for (var i = 0; i < mul.length; i++) {
 console.log(mul);
 
 //reverse an array
+let rev = [];
+for (let i = mul.length - 1; i >= 0; i--) {
+  rev.push(mul[i]);
+}
+console.log(`reverse :`, rev);
+
+/* //OR
+let rev = [];
+rev = mul.reverse();
+console.log(rev);*/
+
 //count of even and odd elements
