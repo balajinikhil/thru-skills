@@ -1,0 +1,24 @@
+/* p[id] {
+  color: red;
+} */
+p[id="firstPara"] {
+  color: red;
+}
+/* matching text */
+h1[class~="head"] {
+  color: aqua;
+}
+
+/*matching end characters*/
+a[href$=".pdf"] {
+  color: green;
+}
+
+/* matches start */
+a[href^="https"] {
+  color: brown;
+}
+
+.firstPara:hover {
+  color: brown;
+}

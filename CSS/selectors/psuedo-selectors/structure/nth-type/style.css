@@ -1,0 +1,10 @@
+/* 
+same value as that of nth child
+numeric
+even or odd
+formula (ex:2n+1)
+ */
+
+.container p:nth-of-type(2) {
+  color: aquamarine;
+}

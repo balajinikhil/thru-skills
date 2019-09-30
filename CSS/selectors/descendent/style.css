@@ -1,0 +1,7 @@
+p {
+  color: tan;
+}
+
+.container p {
+  color: lightcoral;
+}

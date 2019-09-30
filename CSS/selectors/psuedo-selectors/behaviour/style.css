@@ -1,0 +1,15 @@
+/*active,
+hover,
+visited*/
+
+a:hover {
+  background: burlywood;
+}
+
+a:active {
+  background: pink;
+}
+
+a:visited {
+  color: gold;
+}
