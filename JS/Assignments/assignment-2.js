@@ -54,13 +54,16 @@ console.log(`factorized using recursion :`, factorizeUsingRecursion(5));
 //Return Largest Numbers in Arrays
 
 function largestArray(arr) {
-  result = [0, 0, 0, 0];
+  let result = [];
   for (let i = 0; i < arr.length; i++) {
+    let gV = 0;
     for (let j = 0; j < arr[i].length; j++) {
-      if (arr[i][j] > result[i]) {
-        result[i] = arr[i][j];
+      gV = arr[i][j];
+      if (arr[i][j + 1] > gV) {
+        gV = arr[i][j + 1];
       }
     }
+    result.push(gV);
   }
   return result;
 }
