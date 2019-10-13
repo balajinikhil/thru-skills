@@ -80,3 +80,7 @@ Array.prototype.push = function(){
   return `Hello`
 }
 */
+
+let ar = [2, 3, 5, 6];
+let rev = arr.reverse();
+console.log(rev);
