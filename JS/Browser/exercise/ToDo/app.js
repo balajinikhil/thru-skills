@@ -2,7 +2,6 @@ let inpt = document.body.querySelector(" input[name=todo]");
 let btn = document.body.querySelector("button");
 let displayList = document.body.querySelector("#displayList");
 let items = JSON.parse(localStorage.getItem("list")) || [];
-console.log(items);
 
 function addTodoItem() {
   let value = inpt.value;
@@ -35,8 +34,23 @@ let checkbox = document.querySelector("input[type=checkbox]");
 
 renderList(items);
 
-displayList.addEventListener("click", function(e) {
-  console.log(e.target);
-});
+function toggle(e) {
+  //console.log(this);
+  //console.log(e.target);
+
+  if (!e.target.matches("input")) return;
+
+  let ele = e.target;
+
+  let index = parseInt(ele.dataset.id);
+
+  if (items[index].checked) {
+    items[index].checked = false;
+  } else {
+    items[index].checked = true;
+  }
+}
+
+displayList.addEventListener("click", toggle);
 
 btn.addEventListener("click", addTodoItem);
