@@ -17,7 +17,7 @@ console.log(str.valueOf());
 
 console.log(str.toUpperCase()); //converts string to upper case
 
-console.log(primitiveStr.toLocaleLowerCase()); //converts to lower case
+console.log(primitiveStr.toLowerCase()); //converts to lower case
 
 //charAt();
 //acess particular charcater
