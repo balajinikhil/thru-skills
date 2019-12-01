@@ -1,0 +1,40 @@
+<body>
+    {{> header}}
+    <h3>Welcome to my App</h3>
+    {{!-- text content --}}
+    <h4>{{name}}</h4>
+    {{!-- innerHTML --}}
+    {{{htmlData}}}
+
+    {{!-- array itterator --}}
+    <ul>
+        {{#each hobbies}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+
+    {{!-- condition --}}
+    {{#if eligibility}}
+    <p>You are Eligible</p>
+    {{else}}
+    <p>You are not Eligible</p>
+    {{/if}}
+
+
+    {{!--Object  --}}
+    <p>{{education.degree}}</p>
+    <p>{{education.grade}}</p>
+    <p>{{education.YOP}}</p>
+
+    {{!-- array objects --}}
+    {{#each products}}
+    <div>
+        <h3>{{this.name}}</h3>
+        <p>{{this.price}}</p>
+    </div>
+    {{/each}}
+
+
+</body>
+
+</html>
