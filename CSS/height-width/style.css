@@ -1,6 +1,0 @@
-div {
-  width: 200px;
-  height: 200px;
-  border: 1px dotted black; /*solid dotted dashed double*/
-  overflow: auto; /*hidden scroll auto*/
-}

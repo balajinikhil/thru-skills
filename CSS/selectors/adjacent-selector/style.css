@@ -1,4 +1,0 @@
-/* adjacent selector */
-.container h2 + p {
-  color: turquoise;
-}
